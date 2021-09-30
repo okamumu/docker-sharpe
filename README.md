@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/okamumu/docker-sharpe.git
 cd docker-sharpe
-git clone https://github.com/wangnangg/SHARPE.git
+git clone https://github.com/sharpe-duke/SHARPE.git
 ```
 
 2. Build images for debug and release
