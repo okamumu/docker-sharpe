@@ -1,0 +1,14 @@
+block block1a
+comp A exp(0.05)
+comp B exp(0.01)
+comp C exp(0.3)
+comp D exp(0.25)
+comp E exp(0.1)
+parallel threeC C C C
+parallel twoD D D
+series sys1 A B threeC twoD E
+end
+
+cdf (block1a)
+expr value (10;block1a)
+end
