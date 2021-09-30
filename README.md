@@ -1,8 +1,10 @@
 # Build image
 
-1. Get SHARPE source code from GitHub
+1. Get codes from GitHub
 
 ```
+git clone https://github.com/okamumu/docker-sharpe.git
+cd docker-sharpe
 git clone https://github.com/wangnangg/SHARPE.git
 ```
 
